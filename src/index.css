@@ -1,0 +1,36 @@
+.colorTituloPrincipal {
+    color: azure;;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.textoNavbar {
+    font-size: 12px;
+}
+
+.textoFooter {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+body {
+    background-color: #3c4044;
+} 
+.card-body {
+    background: #616161;
+    
+  } 
+.text-uppercase {
+    color: aliceblue;
+}
+
+.fs-5{
+    color: aliceblue;
+}
+  
+
+  .card  {
+  
+    margin: 1em 0;
+}
