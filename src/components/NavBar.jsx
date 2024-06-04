@@ -35,7 +35,7 @@ const NavBar = () => {
                             <NavLink className="nav-link text-white text-uppercase textoNavbar" to={"/category/Wild"}>Wild</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link text-white text-uppercase textoNavbar" to={"/category/Wild"}>Contacto</NavLink>
+                            <NavLink className="nav-link text-white text-uppercase textoNavbar" to={"/category/Contacto"}>Contacto</NavLink>
                         </li>
                     </ul>
                 </div>

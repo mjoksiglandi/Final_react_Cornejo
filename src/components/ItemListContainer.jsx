@@ -21,7 +21,7 @@ const ItemListContainer = () => {
           : itemsCollection;
         const snapShot = await getDocs(queryCollection);
         if (snapShot.size > 0) {
-          const fetchedItems = snapShot.docs.slice(0, 8).map((item) => ({
+          const fetchedItems = snapShot.docs.map((item) => ({
             id: item.id,
             ...item.data(),
           }));
@@ -46,10 +46,10 @@ const ItemListContainer = () => {
             className="custom-select"
             aria-label="Filter Items By Category"
           >
-            <option value="">All Categories</option>
-            <option value="espada">Espada</option>
+            <option value="">Todo</option>
+            <option value="espada">Espadas</option>
             <option value="props">Props</option>
-            <option value="staff">staff</option>
+            <option value="staff">Staff</option>
           </select>
           {loading ? <Loading /> : <ItemList items={items} />}
         </div>
